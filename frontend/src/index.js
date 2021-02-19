@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Route, Link, Switch} from "react-router-dom"
 import './index.css';
 import Main from './Main'
 import Login from './Login'
+import Contact from './contact/Contact'
+import Experience from './experience/Experience'
+import Gallery from './experience/Gallery'
+import Search from './search/Search'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -14,6 +18,15 @@ ReactDOM.render(
         <Route exact path="/"><Main/></Route>
         {/*login page */}
         <Route exact path="/login"><Login/></Route>
+        {/* contact page */}
+        <Route exact path="/contact"><Contact/></Route>
+        {/* experience page */}
+        <Route exact path="/experience"><Experience/></Route>
+        {/* gallery page */}
+        <Route exact path="/gallery"><Gallery/></Route>
+        {/* search page */}
+        <Route exact path="/search"><Search/></Route>
+        
 
 
 

@@ -30,7 +30,7 @@ function Login() {
 
         </body>
     </div>
-  );
+  )
 }
 
 export default Login;
