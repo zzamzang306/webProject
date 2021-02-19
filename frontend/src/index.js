@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link, Switch} from "react-router-dom"
 import './index.css';
-import App from './App';
+import Main from './Main'
+import Login from './Login'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -10,13 +11,15 @@ ReactDOM.render(
     <Router>
       <Switch>
         {/* main page */}
-        <Route exact path="/"><App/></Route>
+        <Route exact path="/"><Main/></Route>
+        {/*login page */}
+        <Route exact path="/login"><Login/></Route>
 
 
 
 
 
-        
+
       </Switch>
     </Router>
   </React.StrictMode>,

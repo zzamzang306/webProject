@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>TET</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet">
-</head>
+import './Main.css';
+import main_pic from './main.png';
+
+function Main() {
+  return (
+    <div className="App">
+      {/* <head>
+        <title>TET</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet">
+      </head> */}
 
 
-<body>
-    <!--Title-->
-    <header>
+    <body>
+      {/* <!--Title--> */}
+      <header>
         <h1 align = "center">T.E.T</h1>
         <h3 align="right">login</h3>
-    </header>
-        <!--Menu List-->
+      </header>
+        {/* <!--Menu List--> */}
         <nav role="navigation">
             <ul>
                 <li><a href="Search/Search.html">Search</a></li>
@@ -21,20 +25,24 @@
                 <li><a href="Contact/Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <!--Side Bar-->
+        {/* <!--Side Bar--> */}
         <aside role="complementary">
             <h3><b>Avoid Area</b></h3>
             <p> --need to make logic list of avoid places</p>
             <h3><b>MVP(Must Visit the Place)</b></h3>
             <p>--need to make logic for must to visit before you die</p>
         </aside>
-        <!--main page picture(need to make new picture)-->
+        {/* <!--main page picture(need to make new picture)--> */}
         <main role="main" id="content">
-            <img src="main.png" height="400" width="500" alt="Travel, Explore, Tour">
+            <img src={main_pic} height="400" width="500" alt="Travel, Explore, Tour"/>
         </main>
         <footer>
-            <small><i>Copyright &copy; 2020 Changsu Kim</i></small><br>
+            <small><i>Copyright &copy; 2020 Changsu Kim</i></small><br/>
             <small><i><a href="mailto:zzamzang306@hotmail.com">zzamzang306@hotmail.com</a></i></small>
         </footer>
-</body>
-</html>
+        </body>
+    </div>
+  );
+}
+
+export default Main;
