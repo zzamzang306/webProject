@@ -1,4 +1,4 @@
-
+import "./Search.css"
 
 function Search() {
     return (
@@ -13,7 +13,7 @@ function Search() {
                 <head>Search</head>
 
                 <main>
-                    <form>
+                    <form class="address">
                         Country<br/><input type="text" name="country" id="country"/><br/>
                         Date<br/><input type="text" name="date" id="date"/><br/>
                         Place<br/><input type="text" name="place" id="place"/>

@@ -20,7 +20,7 @@ function Main() {
         {/* <!--Menu List--> */}
         <nav role="navigation">
             <ul>
-                <li><a href="Search/Search.html">Search</a></li>
+                <li><a href="/search">Search</a></li>
                 <li><a href="Experience/Experience.html">Experience</a></li>
                 <li><a href="Contact/Contact.html">Contact</a></li>
             </ul>
