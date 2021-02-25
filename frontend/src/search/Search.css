@@ -1,4 +1,8 @@
 .address {
-    margin-left: 40%;
-    margin-top: 20%;
+    margin-top: 5%;
+    text-align: center;
+
+}
+.meet-date.form-control{
+    width: 148px;
 }
